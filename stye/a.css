@@ -1,0 +1,41 @@
+/* menu:active */
+
+
+/* .zoomanhmo div {
+    display: block;
+    overflow: hidden;
+} */
+
+.zoomanhmo img {
+    display: block;
+    transition: all 2s ease;
+}
+
+.zoomanhmo img:hover {
+    transform: scale(1.5);
+    opacity: 0.5;
+}
+
+
+/* xoayanhr */
+
+.xoayanh img:hover {
+    transition: 2s ease-in-out;
+    transform: rotate(1turn);
+}
+
+.xoayanh img {
+    -webkit-transition: all s ease-out;
+    -moz-transition: all 2s ease-out;
+    -ms-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+}
+
+.xoayanh img:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}

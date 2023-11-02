@@ -1,0 +1,111 @@
+.siningconten {
+    width: 1700px;
+    height: auto;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#adimin>a {
+    color: rgb(16, 15, 15);
+    font-size: 35px;
+    text-decoration: dotted;
+}
+
+.siningconten .sining {
+    display: flexbox;
+}
+
+.sining h1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.sining input {
+    width: 700px;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    padding-left: 10px;
+    transition: 1s;
+}
+
+.sining input:hover {
+    background-color: rgb(248, 204, 204);
+    border: 1px solid red;
+}
+
+.sining .bnt_dangnhap {
+    background: rgb(235, 233, 233);
+    font-size: 40px;
+    width: 200px;
+    height: 70px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.sining .bnt_dangnhap:hover {
+    color: white;
+    background: #00c8c8;
+    font-size: 40px;
+    border: none;
+}
+
+.siningconten .rasing {
+    display: block;
+}
+
+.rasing h1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.rasing .i1,
+.ii2,
+.i3 {
+    width: 700px;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.rasing input:hover {
+    background-color: rgb(248, 204, 204);
+    border: 1px solid red;
+}
+
+.rasing .bnt_dk2 {
+    background: rgb(255, 255, 255);
+    font-size: 30px;
+    width: 300px;
+    height: 70px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.rasing .bnt_dk2:hover {
+    color: white;
+    background: #00c8c8;
+    border: none;
+}
+
+.rasing .ht {
+    display: flex;
+}
+
+.rasing .ht_nd {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+article {
+    background-image: url(/img/nensing.png);
+    background-size: 100% 100%;
+}

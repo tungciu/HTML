@@ -1,0 +1,401 @@
+.foote_fore .foter_img img {}
+
+.viewsp {
+    width: 1700px;
+    height: auto;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    margin-left: 370px;
+    display: block;
+}
+
+.viewsp .viewone {
+    display: flex;
+}
+
+.viewanh {
+    width: 47%;
+    overflow: hidden;
+    height: auto;
+}
+
+.viewanh img {
+    width: 100%;
+    height: auto;
+    transition: 0.9s;
+}
+
+.viewanh img:hover {
+    transform: scale(1.1);
+}
+
+.noid {
+    width: 50%;
+}
+
+.noid h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(65, 65, 65);
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.viewone .anh,
+img {
+    width: 800px;
+    height: 800px;
+}
+
+.viewone .noid {
+    width: 900px;
+    height: auto;
+    margin-left: 25px;
+}
+
+
+/* icon */
+
+.view_icon .sao {
+    width: 110px;
+}
+
+.view_icon {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.view_icon h2 {
+    margin-top: 0px;
+}
+
+.view_icon img {
+    width: 40px;
+    height: 40px;
+    transition: 0.8s;
+}
+
+.view_icon img:hover {
+    transform: scale(1.1);
+}
+
+
+/* hết */
+
+
+/* giá */
+
+.gia .a {
+    font-size: 40px;
+    font-weight: bold;
+    color: gray;
+}
+
+.gia {
+    margin-top: 0px;
+}
+
+
+/* hết */
+
+
+/* menu */
+
+.menuview {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    line-height: 60px;
+    border-radius: 10px;
+}
+
+.menuview a {
+    text-decoration: none;
+    font-size: 35px;
+    padding-left: 10px;
+    font-weight: bolder;
+    color: rgb(37, 37, 37);
+}
+
+.b1,
+.c1,
+.d1 {
+    margin-left: 100px;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+
+/* hết */
+
+
+/* tex2 */
+
+.tex2 p {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(76, 75, 75);
+}
+
+.tex2 li {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(76, 75, 75);
+}
+
+
+/*  */
+
+
+/* thông số */
+
+.thongso {
+    margin-top: 20px;
+    display: flex;
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.thongso .mausac,
+.sol,
+.sazi legend {
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px 10px 10px 0px;
+}
+
+.mausac select {
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.sazi select {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sol input {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.bnt_viwmua {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.bnt_viwmua .bntone {
+    width: 370px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    background: none;
+}
+
+.bnt_viwmua button {
+    width: 470px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    background: none;
+    cursor: pointer;
+}
+
+.bnt_viwmua button:hover,
+.bntone:hover {
+    background: black;
+    color: white;
+}
+
+
+/*  */
+
+
+/* vi3 */
+
+.viethrea h1 {
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: serif;
+}
+
+.viethrea p {
+    font-size: 25px;
+}
+
+.viethrea img {
+    margin-left: 26%;
+    transition: 1s;
+}
+
+.viethrea img:hover {
+    transform: scale(1.1);
+}
+
+
+/* cuoi */
+
+.viewcuoi {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.danhgai {
+    width: 48%;
+    height: auto;
+}
+
+.danhgai legend {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.dg {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.dg textarea {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.dg button {
+    margin: 10px;
+    border: 1px solid gray;
+    width: 100px;
+    height: 40px;
+    background-color: #03a0e2;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.dg button:hover {
+    background-color: #01577c;
+}
+
+.dgone {
+    display: flex;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.dgone img {
+    width: 400px;
+    height: 230px;
+}
+
+.dgone button {
+    cursor: pointer;
+    width: 270px;
+    height: 60px;
+    margin: 90px 0px 0px 90px;
+    background-color: #03a0e2;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.dgone button:hover {
+    background-color: #01577c;
+}
+
+.lienhe {
+    width: 49%;
+    height: auto;
+    background-color: rgb(242, 242, 242);
+    padding: 20px;
+    display: block;
+}
+
+.lienhe h1 {
+    text-align: center;
+    color: #03a0e2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.ht,
+.dt,
+.gc legend {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ht input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 8px;
+    outline: none;
+    font-size: 25px;
+    box-shadow: 0px 0px 5px 2px rgb(231, 230, 230);
+}
+
+.dt input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 8px;
+    outline: none;
+    font-size: 25px;
+    box-shadow: 0px 0px 5px 2px rgb(227, 227, 227);
+}
+
+.gc textarea {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 2px rgb(236, 235, 235);
+}
+
+.lienhe button {
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    background-color: #006cb5;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.lienhe button:hover {
+    background-color: #004b7c;
+}
+
+
+/* dh */

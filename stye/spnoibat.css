@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+article {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.sapnoibat {
+    width: 88%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    margin-left: 6%;
+}
+
+.sanphamone {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+
+/* p1 */
+
+.phan1 {
+    width: 24%;
+    background-color: #e9e2d3;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgb(155, 166, 179);
+}
+
+.phan1:hover {
+    box-shadow: 7px 7px 7px rgb(150, 191, 248);
+}
+
+.phan1:hover .p1nodung {
+    transform: translateY(0);
+}
+
+.p1nodung {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, rgba(106, 163, 244, 0), rgb(128, 210, 242));
+    transform: translateY(100%);
+    transition: 0.4s;
+}
+
+.phan1 img {
+    cursor: pointer;
+    transition: 1s;
+    width: 100%;
+    height: 80%;
+    margin-top: 40px;
+}
+
+.phan1 img:hover {
+    transform: scale(1.1);
+}
+
+
+/**/
+
+.phan2 {
+    width: 49%;
+    height: 700px;
+    box-shadow: 7px 7px 7px rgb(155, 166, 179);
+    overflow: hidden;
+}
+
+.phan2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.bao {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.p2noidung {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 50px;
+}
+
+.p2noidung h1 {
+    font-size: 60px;
+    color: aliceblue;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.p2noidung p {
+    width: 40%;
+    height: 300px;
+    margin-top: 0px;
+    color: white;
+    font-size: 30px;
+}
+
+.p2noidung button {
+    width: 300px;
+    height: 70px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    background: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.p2noidung button:hover {
+    transform: scale(1.1);
+    color: rgb(157, 66, 2);
+    border: 3px solid rgb(103, 46, 0);
+    background: snow;
+}
+
+.sapham3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.phan3one {
+    clear: both;
+    width: 74%;
+    height: 100%;
+    box-shadow: 7px 7px 7px rgb(155, 166, 179);
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-right: 25px;
+    transition: 1s;
+}
+
+.phan3one .p3noidung {
+    position: absolute;
+    width: 900px;
+    height: 60%;
+    text-align: center;
+    margin-top: 35px;
+    box-shadow: 5px 5px 20px gray;
+    background: rgba(0, 0, 0, 0.2);
+    margin-left: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.phan3one:hover .p3noidung {
+    transition: 2s ease-in-out;
+    transform: rotate(1turn);
+}
+
+.phan3one img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    height: 100%;
+}
+
+
+/* p3333333333333 */
+
+.phan3tow {
+    width: 25%;
+    background-color: #d3dbe9;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 7px 7px 7px rgb(155, 166, 179);
+}
+
+.phan3tow:hover {
+    box-shadow: 7px 7px 7px rgb(150, 191, 248);
+}
+
+.phan3tow:hover .p3nodung {
+    transform: translateY(0);
+}
+
+.p3nodung {
+    height: 30%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, rgba(106, 163, 244, 0), rgb(128, 210, 242));
+    transform: translateY(100%);
+    transition: 0.8s;
+}
+
+.phan3tow img {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+/*  */
+
+.p3noidung h1 {
+    font-size: 60px;
+    color: rgb(223, 153, 1);
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.p3noidung p {
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+    color: rgb(43, 46, 52);
+    font-size: 35px;
+    margin-top: 10px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.p3noidung button {
+    width: 400px;
+    height: 100px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(71, 51, 0);
+    border: 6px solid #ffffff;
+    background: none;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+.p3noidung button:hover {
+    color: rgb(157, 66, 2);
+    border: 6px solid rgb(136, 61, 0);
+    background: rgb(254, 255, 248);
+}
+
+
+/*  */
+
+.sanpham4 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.sanpham4 .vie1 {
+    width: 32%;
+    height: 100%;
+    display: flex;
+    border-radius: 15px;
+    background-image: url(/img/bacgro.png);
+    background-size: 100% 100%;
+    background: rgb(255, 243, 221);
+    box-shadow: 7px 7px 7px rgb(155, 166, 179);
+}
+
+.vie1 .anhlet {
+    width: 40%;
+    height: auto;
+}
+
+.anhlet img {
+    width: 200%;
+    height: 90%;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 10px;
+}
+
+.anhlet img:hover {
+    transform: scale(0.8);
+}
+
+.vie1 {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 7px 7px 7px rgb(155, 166, 179);
+}
+
+.vie1:hover .titl4 {
+    transform: translatex(0);
+}
+
+.vie1 .titl4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to right, rgba(106, 163, 244, 0), rgb(128, 210, 242));
+    right: 0;
+    transform: translatex(100%);
+    transition: 1s;
+    text-align: center;
+}
+
+.titl4 h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.titl4 h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.titl4 button {
+    width: 300px;
+    height: 70px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    background: none;
+    cursor: pointer;
+}
+
+.titl4 button:hover {
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
+    background: black;
+}
+
+.dt {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.dt:hover {
+    transform: scale(1.1);
+}
+
+.botom_logo img:hover {}
